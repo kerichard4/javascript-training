@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+// declare an array fruits
+
+let fruits= ["mango", "orange", "banana", "apple", "grape",[1,2,3]]
+console.log(fruits)
+
+console.log(fruits[0])
+
+console.log(fruits[5][0])
+
+
+// modifying an array
+
+fruits[4]="kiwi"
+console.log(fruits)
+
+fruits[5][2]=6
+console.log(fruits)
+
+// adding value in a array
+
+fruits.push(100)
+alert(fruits)
+
+// deleting last value
+fruits.pop()
+alert(fruits)
+    
+fruits.shift()
+alert(fruits)
+
+// adding at the begining
+fruits.unshift(1000)
+alert(fruits)
+
+
+
+// joining using concat
+let a=["a","b","c","d"]
+let b=["1","2","3","4"]
+let c=b.join(" ")
+console.log(c)
+
+// slice extract a specified part of an array
+
+
+
+// splice can be used to delete multiple at the same time 
+b.splice(0,2)
+console.log(b)
+
+// replace values at the same time
+
+let g=["a","b","c","d"]
+g.splice(0,2,10,20,30)
+console.log(g)
+
+// add values at the same time
+let h=["a","b","c","d"]
+h.splice(1,0,2,3,4,6,5)
+console.log(h)
+
+</script>
+
+</body>
+</html>
