@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // Creating an object
+        let person ={
+            name:'kevin',
+            age:25,
+            gender:'male',
+            name:'ropy',
+            name:"richard",
+            address:{
+                city:'kisumu',
+                code:518,
+                street:'Baba'
+
+            }
+
+        }
+
+        // when access elements in an object use . or []
+
+        console.log(person.address.city)
+
+        // adding 
+        let myobj={}
+        myobj.name='richard'
+        myobj.age='60'
+        myobj.gender='male'
+        myobj.address={location: "nairobi",'code':1000}
+        myobj["ocupation"]="web developer"
+
+        // updaate
+        myobj.name='nathan'
+
+        // delete
+
+        delete myobj.address
+        console.log(myobj)
+
+        console.log(Object.keys(myobj))
+        console.log(Object.values(myobj))
+        console.log(Object.entries(myobj))
+
+
+
+
+
+    </script>
+</body>
+</html>
